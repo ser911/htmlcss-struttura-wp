@@ -20,12 +20,9 @@ header {
 
 .main-bottom {
   width: 80%;
-  /* height: 440px; */
+  height: 440px;
   margin: 20px auto;
   background-color: #0e49b5;
-  clear: both;
-  content: "";
-  display: table;
 }
 
 .section-title {
@@ -33,32 +30,38 @@ header {
   background-color: lightblue;
 }
 
+.row::after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .col-left {
-  height: 400px;
+  /* height: 400px; */
   width: 20%;
   float: left;
   margin: 20px 1% 20px 0;
-  padding: 15px;
+  padding: 5px;
   background-color: lightblue;
   display: inline-block;
 }
 
 .col-right {
-  height: 400px;
+  /* height: 400px; */
   width: 20%;
   float: left;
   margin: 20px 0 20px 1%;
-  padding: 15px;
+  padding: 5px;
   background-color: lightblue;
   display: inline-block;
 }
 
 .col-center {
-  height: 400px;
+  /* height: 400px; */
   width: 56%;
   float: left;
   margin: 20px 1% 20px;
-  padding: 15px;
+  padding: 5px;
   background-color: lightblue;
   display: inline-block;
 }
