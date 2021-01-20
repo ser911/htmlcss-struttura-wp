@@ -20,7 +20,7 @@ header {
 
 .main-bottom {
   width: 80%;
-  height: 440px;
+  /* height: 440px; */
   margin: 20px auto;
   background-color: #0e49b5;
   clear: both;
